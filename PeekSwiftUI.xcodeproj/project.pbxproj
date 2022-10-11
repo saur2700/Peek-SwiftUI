@@ -14,6 +14,8 @@
 		8AA32C9E28D85FF7006D4EA5 /* PeekSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA32C9D28D85FF7006D4EA5 /* PeekSwiftUITests.swift */; };
 		8AA32CA828D85FF7006D4EA5 /* PeekSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA32CA728D85FF7006D4EA5 /* PeekSwiftUIUITests.swift */; };
 		8AA32CAA28D85FF7006D4EA5 /* PeekSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA32CA928D85FF7006D4EA5 /* PeekSwiftUIUITestsLaunchTests.swift */; };
+		8AA32CB728D865A4006D4EA5 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA32CB628D865A4006D4EA5 /* Colors.swift */; };
+		8AA32CB928D865CB006D4EA5 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA32CB828D865CB006D4EA5 /* Carousel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8AA32CA328D85FF7006D4EA5 /* PeekSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeekSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA32CA728D85FF7006D4EA5 /* PeekSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekSwiftUIUITests.swift; sourceTree = "<group>"; };
 		8AA32CA928D85FF7006D4EA5 /* PeekSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8AA32CB628D865A4006D4EA5 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		8AA32CB828D865CB006D4EA5 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				8AA32C8C28D85FF4006D4EA5 /* PeekSwiftUIApp.swift */,
 				8AA32C8E28D85FF4006D4EA5 /* ContentView.swift */,
+				8AA32CB628D865A4006D4EA5 /* Colors.swift */,
+				8AA32CB828D865CB006D4EA5 /* Carousel.swift */,
 				8AA32C9028D85FF6006D4EA5 /* Assets.xcassets */,
 				8AA32C9228D85FF6006D4EA5 /* Preview Content */,
 			);
@@ -259,6 +265,8 @@
 			files = (
 				8AA32C8F28D85FF4006D4EA5 /* ContentView.swift in Sources */,
 				8AA32C8D28D85FF4006D4EA5 /* PeekSwiftUIApp.swift in Sources */,
+				8AA32CB728D865A4006D4EA5 /* Colors.swift in Sources */,
+				8AA32CB928D865CB006D4EA5 /* Carousel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

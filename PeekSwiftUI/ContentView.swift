@@ -8,9 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var currentIndex: Int = 0
+    @State var colors: [ColorView] = []
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack() {
+            Text("\(currentIndex)")
+            PeekView(index: $currentIndex, items: colors) { colour in
+                
+                GeometryReader{image in
+                    
+                    let size = image.size
+                    
+                    Image(colour.ColorImage)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: size.width)
+                        .cornerRadius(12)
+                }
+            }
+            .padding(.vertical,40)
+            
+        }
+        .onAppear {
+            for index in 1...3{
+                colors.append(ColorView(ColorImage: "Color\(index)"))
+            }
+        }
     }
 }
 
